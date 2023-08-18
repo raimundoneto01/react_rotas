@@ -11,21 +11,20 @@ const NavBar = () => {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="/Menu" >Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="/Usuario">Usuários</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricings</a>
+                                <a class="nav-link" href="/Cadastro">Cadastro</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>
             </nav>
+        
         </>
     )
 }
